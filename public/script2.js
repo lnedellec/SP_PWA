@@ -52,6 +52,7 @@ function nouveauMessage(lprenom, lmessage) {
 
 socket.on("nouveauMessage", (lprenom, lmessage) => {
   nouveauMessage(lprenom, lmessage);
+  new Notification(`Nouveau message de ${lprenom}`, { body: lmessage, icon: 'img/apple-icon-57x57-seochecker-manifest-1328.png' })
 })
 
 form.addEventListener("submit", (event) => {

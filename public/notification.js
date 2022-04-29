@@ -2,12 +2,12 @@ console.log(Notification.permission);
 
 function dispNotif(){
     console.log('disNotif');
-    let textNotif = "Ma notif à moi";
+    let textNotif = "Vous recevrez des notifications lors de nouveaux messages !";
     let param = {
         body: textNotif,
         icon: 'img/apple-icon-57x57-seochecker-manifest-1328.png'
     }
-    const notif = new Notification('Notification de mon appli', param);
+    const notif = new Notification('Préférences de notification', param);
 };
 
 function reqNotif(){

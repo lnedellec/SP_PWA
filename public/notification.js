@@ -26,3 +26,11 @@ function reqNotif(){
 if(Notification.permission === 'default'){
     reqNotif();
 }
+if(Notification.permission === 'granted'){
+    console.log('disNotif');
+    dispNotif();
+}
+
+if(Notification.permission === 'denied'){
+    console.log('pas de notifications');
+}

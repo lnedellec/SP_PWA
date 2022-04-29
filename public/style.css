@@ -1,0 +1,47 @@
+header{
+    background-color: #589047;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    padding: 3vh 4vw;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.6rem;
+    color: #589047;
+}
+
+p{
+    color: #1f0f05;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+}
+
+.line{
+    border-bottom: solid 1px #589047 ;
+    margin-bottom: 3vh;
+}
+.btn-primary{
+    background-color: #589047;
+    margin-bottom: 6vh;
+    border-color: #89b17d;
+}
+
+.btn-primary:hover{
+    background-color: #89b17d;
+}
+ 
+@media screen and (max-width:566px) {
+
+    h1{
+        font-size: 2rem;
+        padding: 2vh;
+    }
+
+    h2, p{
+       padding-left: 4vw; 
+    }
+}
